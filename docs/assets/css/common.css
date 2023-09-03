@@ -293,7 +293,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
+@media screen and (max-width: 767px) {
+  .p-choc__choc {
+    width: 160px;
+  }
+}
 .p-cona__images {
   display: flex;
   gap: 10px;
@@ -375,6 +379,7 @@ ul {
   margin-top: 20px;
   color: #E3032B;
   font-size: 24px;
+  text-decoration: none;
 }
 
 .p-slider {
