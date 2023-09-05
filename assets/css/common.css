@@ -510,85 +510,85 @@ ul {
 }
 @keyframes sp-slide-anim {
   0% {
-    transform: translateX(-161.4vw);
+    transform: translateX(-330.4vw);
   }
   6.6923076923% {
-    transform: translateX(-161.4vw);
+    transform: translateX(-330.4vw);
   }
   7.6923076923% {
-    transform: translateX(-137.3538461538vw);
+    transform: translateX(-306.3538461538vw);
   }
   14.3846153846% {
-    transform: translateX(-137.3538461538vw);
+    transform: translateX(-306.3538461538vw);
   }
   15.3846153846% {
-    transform: translateX(-113.3076923077vw);
+    transform: translateX(-282.3076923077vw);
   }
   22.0769230769% {
-    transform: translateX(-113.3076923077vw);
+    transform: translateX(-282.3076923077vw);
   }
   23.0769230769% {
-    transform: translateX(-89.2615384615vw);
+    transform: translateX(-258.2615384615vw);
   }
   29.7692307692% {
-    transform: translateX(-89.2615384615vw);
+    transform: translateX(-258.2615384615vw);
   }
   30.7692307692% {
-    transform: translateX(-65.2153846154vw);
+    transform: translateX(-234.2153846154vw);
   }
   37.4615384615% {
-    transform: translateX(-65.2153846154vw);
+    transform: translateX(-234.2153846154vw);
   }
   38.4615384615% {
-    transform: translateX(-41.1692307692vw);
+    transform: translateX(-210.1692307692vw);
   }
   45.1538461538% {
-    transform: translateX(-41.1692307692vw);
+    transform: translateX(-210.1692307692vw);
   }
   46.1538461538% {
-    transform: translateX(-17.1230769231vw);
+    transform: translateX(-186.1230769231vw);
   }
   52.8461538462% {
-    transform: translateX(-17.1230769231vw);
+    transform: translateX(-186.1230769231vw);
   }
   53.8461538462% {
-    transform: translateX(6.9230769231vw);
+    transform: translateX(-162.0769230769vw);
   }
   60.5384615385% {
-    transform: translateX(6.9230769231vw);
+    transform: translateX(-162.0769230769vw);
   }
   61.5384615385% {
-    transform: translateX(30.9692307692vw);
+    transform: translateX(-138.0307692308vw);
   }
   68.2307692308% {
-    transform: translateX(30.9692307692vw);
+    transform: translateX(-138.0307692308vw);
   }
   69.2307692308% {
-    transform: translateX(55.0153846154vw);
+    transform: translateX(-113.9846153846vw);
   }
   75.9230769231% {
-    transform: translateX(55.0153846154vw);
+    transform: translateX(-113.9846153846vw);
   }
   76.9230769231% {
-    transform: translateX(79.0615384615vw);
+    transform: translateX(-89.9384615385vw);
   }
   83.6153846154% {
-    transform: translateX(79.0615384615vw);
+    transform: translateX(-89.9384615385vw);
   }
   84.6153846154% {
-    transform: translateX(103.1076923077vw);
+    transform: translateX(-65.8923076923vw);
   }
   91.3076923077% {
-    transform: translateX(103.1076923077vw);
+    transform: translateX(-65.8923076923vw);
   }
   92.3076923077% {
-    transform: translateX(127.1538461538vw);
+    transform: translateX(-41.8461538462vw);
   }
   99% {
-    transform: translateX(127.1538461538vw);
+    transform: translateX(-41.8461538462vw);
   }
   100% {
-    transform: translateX(-10.2vw);
+    transform: translateX(-17.8vw);
   }
 }
 
