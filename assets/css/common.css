@@ -298,6 +298,7 @@ ul {
     width: 160px;
   }
 }
+
 .p-cona__images {
   display: flex;
   gap: 10px;
@@ -386,18 +387,29 @@ ul {
   margin-top: 40px;
   overflow-x: hidden;
 }
+@media screen and (max-width: 767px) {
+  .p-slider {
+    height: 80vw;
+  }
+}
 .p-slider__conas {
   width: 312.6vw;
   display: flex;
+  animation: slide-anim 40s linear infinite;
+}
+@media screen and (max-width: 767px) {
+  .p-slider__conas {
+    animation: sp-slide-anim 40s linear infinite;
+    align-items: flex-end;
+  }
 }
 .p-slider__conas img {
   width: 156.3vw;
 }
-.p-slider__first {
-  animation: loop 8s linear infinite;
-}
-.p-slider__second {
-  animation: loop2 8s -8s linear infinite;
+@media screen and (max-width: 767px) {
+  .p-slider__conas img {
+    width: 312.6vw;
+  }
 }
 .p-slider__shot {
   width: 46.9vw;
@@ -406,176 +418,177 @@ ul {
   z-index: 3;
   margin-top: -2.2vw;
 }
-@keyframes loop {
-  0% {
-    transform: translateX(-5.1vw);
-  }
-  2.5% {
-    transform: translateX(7.1vw);
-  }
-  7.5% {
-    transform: translateX(7.1vw);
-  }
-  10% {
-    transform: translateX(19.1vw);
-  }
-  15% {
-    transform: translateX(19.1vw);
-  }
-  17.5% {
-    transform: translateX(31.1vw);
-  }
-  22.5% {
-    transform: translateX(31.1vw);
-  }
-  25% {
-    transform: translateX(43.1vw);
-  }
-  30% {
-    transform: translateX(43.1vw);
-  }
-  32.5% {
-    transform: translateX(55.1vw);
-  }
-  37.5% {
-    transform: translateX(55.1vw);
-  }
-  40% {
-    transform: translateX(67.1vw);
-  }
-  45% {
-    transform: translateX(67.1vw);
-  }
-  47.5% {
-    transform: translateX(79.1vw);
-  }
-  52.5% {
-    transform: translateX(79.1vw);
-  }
-  55% {
-    transform: translateX(91.1vw);
-  }
-  60% {
-    transform: translateX(91.1vw);
-  }
-  62.5% {
-    transform: translateX(103.1vw);
-  }
-  67.5% {
-    transform: translateX(103.1vw);
-  }
-  70% {
-    transform: translateX(115.1vw);
-  }
-  75% {
-    transform: translateX(115.1vw);
-  }
-  77.5% {
-    transform: translateX(127.1vw);
-  }
-  82.5% {
-    transform: translateX(127.1vw);
-  }
-  86% {
-    transform: translateX(139.1vw);
-  }
-  91% {
-    transform: translateX(139.1vw);
-  }
-  93.5% {
-    transform: translateX(141.1vw);
-  }
-  98.5% {
-    transform: translateX(141.1vw);
-  }
-  100% {
-    transform: translateX(141.1vw);
+@media screen and (max-width: 767px) {
+  .p-slider__shot {
+    transform: scale(2.1, 2.1);
+    margin-top: 5.8vw;
+    margin-left: 28.5vw;
   }
 }
-@keyframes loop2 {
+@keyframes slide-anim {
   0% {
-    transform: translateX(-317.1vw);
+    transform: translateX(-161.4vw);
   }
-  2.5% {
-    transform: translateX(-305.1vw);
+  6.6923076923% {
+    transform: translateX(-161.4vw);
   }
-  7.5% {
-    transform: translateX(-305.1vw);
+  7.6923076923% {
+    transform: translateX(-149.3769230769vw);
   }
-  10% {
-    transform: translateX(-293.1vw);
+  14.3846153846% {
+    transform: translateX(-149.3769230769vw);
   }
-  15% {
-    transform: translateX(-293.1vw);
+  15.3846153846% {
+    transform: translateX(-137.3538461538vw);
   }
-  17.5% {
-    transform: translateX(-281.1vw);
+  22.0769230769% {
+    transform: translateX(-137.3538461538vw);
   }
-  22.5% {
-    transform: translateX(-281.1vw);
+  23.0769230769% {
+    transform: translateX(-125.3307692308vw);
   }
-  25% {
-    transform: translateX(-269.1vw);
+  29.7692307692% {
+    transform: translateX(-125.3307692308vw);
   }
-  30% {
-    transform: translateX(-269.1vw);
+  30.7692307692% {
+    transform: translateX(-113.3076923077vw);
   }
-  32.5% {
-    transform: translateX(-257.1vw);
+  37.4615384615% {
+    transform: translateX(-113.3076923077vw);
   }
-  37.5% {
-    transform: translateX(-257.1vw);
+  38.4615384615% {
+    transform: translateX(-101.2846153846vw);
   }
-  40% {
-    transform: translateX(-245.1vw);
+  45.1538461538% {
+    transform: translateX(-101.2846153846vw);
   }
-  45% {
-    transform: translateX(-245.1vw);
+  46.1538461538% {
+    transform: translateX(-89.2615384615vw);
   }
-  47.5% {
-    transform: translateX(-233.1vw);
+  52.8461538462% {
+    transform: translateX(-89.2615384615vw);
   }
-  52.5% {
-    transform: translateX(-233.1vw);
+  53.8461538462% {
+    transform: translateX(-77.2384615385vw);
   }
-  55% {
-    transform: translateX(-221.1vw);
+  60.5384615385% {
+    transform: translateX(-77.2384615385vw);
   }
-  60% {
-    transform: translateX(-221.1vw);
+  61.5384615385% {
+    transform: translateX(-65.2153846154vw);
   }
-  62.5% {
-    transform: translateX(-209.1vw);
+  68.2307692308% {
+    transform: translateX(-65.2153846154vw);
   }
-  67.5% {
-    transform: translateX(-209.1vw);
+  69.2307692308% {
+    transform: translateX(-53.1923076923vw);
   }
-  70% {
-    transform: translateX(-197.1vw);
+  75.9230769231% {
+    transform: translateX(-53.1923076923vw);
   }
-  75% {
-    transform: translateX(-197.1vw);
+  76.9230769231% {
+    transform: translateX(-41.1692307692vw);
   }
-  77.5% {
-    transform: translateX(-185.1vw);
+  83.6153846154% {
+    transform: translateX(-41.1692307692vw);
   }
-  82.5% {
-    transform: translateX(-185.1vw);
+  84.6153846154% {
+    transform: translateX(-29.1461538462vw);
   }
-  86% {
-    transform: translateX(-173.1vw);
+  91.3076923077% {
+    transform: translateX(-29.1461538462vw);
   }
-  91% {
-    transform: translateX(-173.1vw);
+  92.3076923077% {
+    transform: translateX(-17.1230769231vw);
   }
-  93.5% {
-    transform: translateX(-161.1vw);
-  }
-  98.5% {
-    transform: translateX(-161.1vw);
+  99% {
+    transform: translateX(-17.1230769231vw);
   }
   100% {
-    transform: translateX(-161.1vw);
+    transform: translateX(-5.1vw);
+  }
+}
+@keyframes sp-slide-anim {
+  0% {
+    transform: translateX(-161.4vw);
+  }
+  6.6923076923% {
+    transform: translateX(-161.4vw);
+  }
+  7.6923076923% {
+    transform: translateX(-137.3538461538vw);
+  }
+  14.3846153846% {
+    transform: translateX(-137.3538461538vw);
+  }
+  15.3846153846% {
+    transform: translateX(-113.3076923077vw);
+  }
+  22.0769230769% {
+    transform: translateX(-113.3076923077vw);
+  }
+  23.0769230769% {
+    transform: translateX(-89.2615384615vw);
+  }
+  29.7692307692% {
+    transform: translateX(-89.2615384615vw);
+  }
+  30.7692307692% {
+    transform: translateX(-65.2153846154vw);
+  }
+  37.4615384615% {
+    transform: translateX(-65.2153846154vw);
+  }
+  38.4615384615% {
+    transform: translateX(-41.1692307692vw);
+  }
+  45.1538461538% {
+    transform: translateX(-41.1692307692vw);
+  }
+  46.1538461538% {
+    transform: translateX(-17.1230769231vw);
+  }
+  52.8461538462% {
+    transform: translateX(-17.1230769231vw);
+  }
+  53.8461538462% {
+    transform: translateX(6.9230769231vw);
+  }
+  60.5384615385% {
+    transform: translateX(6.9230769231vw);
+  }
+  61.5384615385% {
+    transform: translateX(30.9692307692vw);
+  }
+  68.2307692308% {
+    transform: translateX(30.9692307692vw);
+  }
+  69.2307692308% {
+    transform: translateX(55.0153846154vw);
+  }
+  75.9230769231% {
+    transform: translateX(55.0153846154vw);
+  }
+  76.9230769231% {
+    transform: translateX(79.0615384615vw);
+  }
+  83.6153846154% {
+    transform: translateX(79.0615384615vw);
+  }
+  84.6153846154% {
+    transform: translateX(103.1076923077vw);
+  }
+  91.3076923077% {
+    transform: translateX(103.1076923077vw);
+  }
+  92.3076923077% {
+    transform: translateX(127.1538461538vw);
+  }
+  99% {
+    transform: translateX(127.1538461538vw);
+  }
+  100% {
+    transform: translateX(-10.2vw);
   }
 }
 
